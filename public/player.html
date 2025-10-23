@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Habits - Habit Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>My Habits</h1>
+    <nav>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="admin.html">Admin</a>
+      <a href="index.html">Logout</a>
+    </nav>
+  </header>
+  <div class="container">
+    <h2>Your Habits</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Habit</th>
+          <th>Status</th>
+          <th>Update</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Read 30 minutes</td>
+          <td>Not Started</td>
+          <td>
+            <select>
+              <option>Not Started</option>
+              <option>In Progress</option>
+              <option>Completed</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Drink Water</td>
+          <td>In Progress</td>
+          <td>
+            <select>
+              <option>Not Started</option>
+              <option selected>In Progress</option>
+              <option>Completed</option>
+            </select>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <button>Save Updates</button>
+  </div>
+</body>
+</html>
